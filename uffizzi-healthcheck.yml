@@ -1,0 +1,15 @@
+services:
+  nginx:
+    image: zipofar/my_nginx_simple:latest
+    healthcheck:
+      test:
+        - CMD
+      interval: 10h
+      timeout: 5s
+      start_period: 5s
+      retries: 5
+
+x-uffizzi:
+  ingress:
+    service: nginx
+    port: 80
