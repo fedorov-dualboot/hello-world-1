@@ -1,6 +1,6 @@
 services:
   webhooks-test-app:
-    image: ghcr.io/nealarw/webhook-test-app_2:latest
+    image: ghcr.io/fedorov-dualboot/webhook-test-app:latest
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
