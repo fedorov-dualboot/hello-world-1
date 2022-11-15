@@ -1,6 +1,6 @@
 services:
   webhook:
-    image: gcr.io/uffizzi-pro-qa-gke/webhooks-test-app:latest
+    image: gcr.io/uffizzi-pro-staging-gke/webhooks-test-app:latest
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
