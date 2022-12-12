@@ -13,6 +13,6 @@ x-uffizzi:
     
   continuous_preview:
     share_to_github: true
-    delete_preview_after: 1h
+    delete_preview_after: 5h
     delete_preview_when_pull_request_is_closed: true
     deploy_preview_when_pull_request_is_opened: true
