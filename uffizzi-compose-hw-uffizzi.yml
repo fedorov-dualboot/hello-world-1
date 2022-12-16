@@ -1,5 +1,5 @@
 services:
-  hello-world:
+  hello-world2:
     build: 
       context: https://github.com/UffizziCloud/hello-world#master
       dockerfile: /Dockerfile
@@ -8,7 +8,7 @@ services:
 
 x-uffizzi:
   ingress:
-    service: hello-world
+    service: hello-world2
     port: 80
     
   continuous_preview:
